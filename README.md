@@ -82,7 +82,7 @@ flowchart LR
 **As a plugin (recommended):**
 
 ```
-/plugin marketplace add jibril4000/wavvves-plugin
+/plugin marketplace add jibril4000/wavvves
 /plugin install wavvves@wavvves
 ```
 
@@ -92,8 +92,8 @@ propose it (and confirm before spawning anything).
 **Manual install:**
 
 ```bash
-git clone https://github.com/jibril4000/wavvves-plugin
-cp -R wavvves-plugin/skills/wavvves ~/.claude/skills/   # personal, all projects
+git clone https://github.com/jibril4000/wavvves
+cp -R wavvves/skills/wavvves ~/.claude/skills/   # personal, all projects
 # or into <project>/.claude/skills/                      # project-scoped
 ```
 
