@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="wavvves — build in waves">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07070c"/>
+      <stop offset="1" stop-color="#0d0b1a"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+    <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1" fill="#000" opacity="0.22"/>
+    </pattern>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#4b5563" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1280" height="400" fill="url(#sky)"/>
+  <rect width="1280" height="400" fill="url(#grid)"/>
+
+  <!-- stacked waves -->
+  <path d="M0,330 C160,296 320,360 480,326 C640,292 800,356 960,322 C1120,290 1280,352 1280,326 L1280,400 L0,400 Z" fill="url(#wave)" opacity="0.22"/>
+  <path d="M0,312 C170,276 330,344 500,308 C660,276 820,342 980,306 C1130,278 1280,338 1280,312 L1280,400 L0,400 Z" fill="url(#wave)" opacity="0.34"/>
+  <path d="M0,296 C150,258 340,330 500,292 C670,254 830,326 1000,290 C1140,262 1280,322 1280,296 L1280,400 L0,400 Z" fill="url(#wave)" opacity="0.55"/>
+  <path d="M0,282 C160,246 330,314 500,278 C680,242 840,312 1010,276 C1150,248 1280,306 1280,282" fill="none" stroke="#a5f3fc" stroke-opacity="0.55" stroke-width="1.5"/>
+
+  <!-- wordmark: RGB-split glitch -->
+  <g font-family="'JetBrains Mono','SFMono-Regular','Consolas',ui-monospace,monospace" font-weight="800" font-size="132" letter-spacing="2" text-anchor="middle">
+    <text x="644" y="196" fill="#ff2e97" opacity="0.9">wavvves</text>
+    <text x="636" y="192" fill="#22d3ee" opacity="0.9">wavvves</text>
+    <text x="640" y="194" fill="#f5f7ff">wavvves</text>
+  </g>
+
+  <!-- glitch slices -->
+  <rect x="360" y="120" width="560" height="6" fill="#22d3ee" opacity="0.30"/>
+  <rect x="300" y="158" width="380" height="4" fill="#ff2e97" opacity="0.28"/>
+  <rect x="740" y="176" width="220" height="3" fill="#f5f7ff" opacity="0.35"/>
+
+  <!-- tagline -->
+  <text x="640" y="252" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular','Consolas',ui-monospace,monospace" font-size="23" letter-spacing="7" fill="#8b96b8">// build in waves</text>
+
+  <!-- overlays -->
+  <rect width="1280" height="400" fill="url(#scan)"/>
+  <rect width="1280" height="400" fill="url(#vig)"/>
+</svg>

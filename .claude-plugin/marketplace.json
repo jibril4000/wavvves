@@ -1,0 +1,15 @@
+{
+  "name": "wavvves",
+  "owner": {
+    "name": "Jibril",
+    "email": "ramadanandcompany@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "wavvves",
+      "source": "./",
+      "description": "Contracts-first, wave-based methodology for orchestrating a large build across parallel sub-agents in isolated git worktrees, behind a human approval gate.",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "wavvves",
+  "version": "1.0.0",
+  "description": "Contracts-first, wave-based methodology for orchestrating a large build across parallel sub-agents in isolated git worktrees, behind a human approval gate.",
+  "author": {
+    "name": "Jibril",
+    "email": "ramadanandcompany@gmail.com"
+  },
+  "homepage": "https://github.com/jibril4000/wavvves-plugin",
+  "repository": "https://github.com/jibril4000/wavvves-plugin",
+  "license": "MIT",
+  "keywords": [
+    "orchestration",
+    "multi-agent",
+    "git-worktrees",
+    "parallel-build",
+    "subagents",
+    "waves"
+  ]
+}
